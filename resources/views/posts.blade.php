@@ -1,10 +1,6 @@
-<!doctype html>
+@extends('layout')
 
-<title>My blog</title>
-<link rel="stylesheet" href="/app.css">
-
-<body>
-
+@section('content')
     @if(true)
         <h1>Just learning the Blade basics</h1>
     @endif
@@ -21,4 +17,4 @@
             </div>
         </article>
     @endforeach
-</body>
+@endsection
